@@ -1,11 +1,57 @@
+.container{
+    display: flex;
+}
+
 body {
     background-color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img{
+    margin: auto;
+    display: block;
+}
+
+.horspreader {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+a{
+    color: maroon;
 }
 
 h1{
     color: maroon;
+    text-align: center;
+    
 }
 
 p{
     text-align: center;
+}
+
+li{
+    font-weight: bold;
+}
+
+span{
+    color:maroon;
+     font-style: italic;
+}
+
+
+
+#songs{
+    background-color: beige;
+    border-style: solid;
+    border-color: maroon;
+    width: 50%;
+    text-align: center;
+}
+
+#rh{
+    width:50%;
+    border-style: solid;
+    border-color: maroon;
 }
