@@ -42,7 +42,7 @@ li{
     border-color: maroon;
     border-top-width: medium;
     border-left-width: medium;
-    border-right-width: thin;
+    border-right-width: medium;
     border-bottom-width: thin;
     width: 50%;
     text-align: center;
@@ -62,7 +62,7 @@ span:hover{
     border-style: solid;
     border-color: maroon;
     border-top-width: medium;
-    border-left-width: thin;
+    border-left-style: none;
     border-right-width: medium;
     border-bottom-width: thin;
 }
@@ -75,3 +75,31 @@ span:hover{
     border-right-width: medium;
     border-bottom-width: thin;
 }
+
+.cont2{
+    display: flex;
+}
+
+#rainbows{
+    width:50%;
+    border-style: solid;
+    border-color: maroon;
+    border-top-width: medium;
+    border-left-width: medium;
+    border-right-style: none;
+    border-bottom-width: medium;
+  
+} 
+ #section{
+    border-style: solid;
+    width:100%;
+    border-color: maroon;
+    border-top-width: medium;
+    border-left-style: none;
+    border-right-width: medium;
+    border-bottom-width: medium;
+ }
+
+ h4{
+    text-align: center;
+ }
